@@ -1,20 +1,46 @@
+<div align="center">
+  <img src="https://github.com/OpenCoder-llm/opencoder-llm.github.io/blob/main/static/images/opencoder_icon.jpg?raw=true" width="30%" alt="OpenCoder-Icon" />
+</div>
+
+
 <p align="center">
     <h1 align="center">
-        <img src="https://github.com/user-attachments/assets/93406728-e93f-4a90-9edc-adc346dedbf3"
+<!--         <img src="https://github.com/user-attachments/assets/93406728-e93f-4a90-9edc-adc346dedbf3"
          alt="Logo" width="65"
-        height="65" style="vertical-align: middle;">
+        height="65" style="vertical-align: middle;"> -->
         OpenCoder
     </h1>
-     <p align="center">⚡ The Cookbook for Top-Tier Open CodeLLM ⚡</p>
+     <p align="center">⚡ The Open Cookbook for Top-Tier Code Large Language Models ⚡</p>
 </p>
 
-<!-- 👉 HomePage -->
+<p align="center">
+        🏠 <a href="https://opencoder-llm.github.io/">Home Page</a>&nbsp&nbsp | &nbsp&nbsp 🤗 <a href="https://huggingface.co/collections/infly/opencoder-672cec44bbb86c39910fb55e">Model</a>&nbsp&nbsp | &nbsp&nbsp 📊 <a href="https://huggingface.co/collections/OpenCoder-LLM/opencoder-datasets-672e6db6a0fed24bd69ef1c2">Dataset</a>&nbsp&nbsp | &nbsp&nbsp 📄<a href="https://arxiv.org/abs/2411.04905">Paper</a>&nbsp&nbsp
+</p>
 
 ![12](https://github.com/user-attachments/assets/3aa8dd8f-b12a-46e7-a543-d81cfd175d30)
 
+## News
+- 🔥🔥 ```2024/11/09``` We have released 4.5M Post-training data: 📊 [Dataset](https://huggingface.co/collections/OpenCoder-LLM/opencoder-datasets-672e6db6a0fed24bd69ef1c2).
+- 🔥 ```2024/11/08``` We have released our models! Please download them from 🤗 [Model](https://huggingface.co/collections/infly/opencoder-672cec44bbb86c39910fb55e).
+- 🔥 ```2024/11/07``` We have released our paper on Arxiv: 📄 [OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models](https://arxiv.org/abs/2411.04905).
+
+
+## Releases
+- [ ] Data cleaning pipeline
+- [ ] Intermedidate Checkpoints
+- [ ] **RefineCode**: Metadata of raw code data 
+- [ ] **RefineCode**: Code-related web data
+- [ ] High-quality annealing data
+- [x] Post-training data
+- [x] Final model weights
+- [x] Paper
+
+We are working hard to release all those resources! 💪 
+
+
 ## Introduction
 
-**OpenCoder** is an open and reproducible code LLM family which includes 1.5B and 8B base and chat models, supporting both English and Chinese languages. Starting from scratch, OpenCoder is pretrained on 2.5 trillion tokens composed of 90% raw code and 10% code-related web data, and supervised finetuned on over 450M high-quality SFT examples, finally reaching the performance of top-tier code LLMs. We provide not only model weights and inference code, but also the reproducible training data, the complete data processing pipeline, rigorous experimental ablation results, and detailed training protocols. Empowering researchers to build and innovate, OpenCoder is your open foundation for advancing code AI. 
+**OpenCoder** is an open and reproducible code LLM family which includes 1.5B and 8B base and chat models, supporting both English and Chinese languages. Starting from scratch, OpenCoder is pretrained on 2.5 trillion tokens composed of 90% raw code and 10% code-related web data, and supervised finetuned on over 4.5M high-quality SFT examples, finally reaching the performance of top-tier code LLMs. We provide not only model weights and inference code, but also the reproducible training data, the complete data processing pipeline, rigorous experimental ablation results, and detailed training protocols. Empowering researchers to build and innovate, OpenCoder is your open foundation for advancing code AI. 
 
 - **Complete Open Source**: OpenCoder ensures full transparency by releasing not only the model weights and forthcoming inference code but also the complete data-cleaning code for training. This release includes high-quality synthetic data, an extensive set of checkpoints, and a dataset of over 4.5 million supervised fine-tuning (SFT) entries, making OpenCoder one of the most comprehensively open-sourced models available.
 - **Comprehensive Experimental Analysis**: OpenCoder is rigorously tested through extensive ablation studies on various data-cleaning strategies and training processes, including file-level and repository-level deduplication experiments, ensuring thorough exploration and validation of the model’s performance.
@@ -33,10 +59,14 @@
 
 ## Datasets
 
+
 |         Dataset       | Num |                                Download                                 |
 |:---------------------:|:---------------:|:-----------------------------------------------------------------------:|
 | OpenCoder-SFT-Stage1  |      4.21 M       | 🤗 [HuggingFace](https://huggingface.co/datasets/OpenCoder-LLM/opencoder-sft-stage1)  |
 | OpenCoder-SFT-Stage2  |      375 K      | 🤗 [HuggingFace](https://huggingface.co/datasets/OpenCoder-LLM/opencoder-sft-stage2)  |
+
+
+**This is not the end; we are organizing the remaining data and uploading it progressively.**
 
 ## Performance
 
