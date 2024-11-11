@@ -20,6 +20,7 @@
 ![12](https://github.com/user-attachments/assets/3aa8dd8f-b12a-46e7-a543-d81cfd175d30)
 
 ## News
+- 🔥🔥 ```2024/11/11``` We have released 55B of recalled pages from [Fineweb](https://huggingface.co/datasets/HuggingFaceFW/fineweb), including 📊 [fineweb-code-corpus](https://huggingface.co/datasets/OpenCoder-LLM/fineweb-code-corpus) and 📊 [fineweb-math-corpus](https://huggingface.co/datasets/OpenCoder-LLM/fineweb-math-corpus).
 - 🔥🔥 ```2024/11/09``` We have released 4.5M Post-training data: 📊 [Dataset](https://huggingface.co/collections/OpenCoder-LLM/opencoder-datasets-672e6db6a0fed24bd69ef1c2).
 - 🔥 ```2024/11/08``` We have released our models! Please download them from 🤗 [Model](https://huggingface.co/collections/infly/opencoder-672cec44bbb86c39910fb55e).
 - 🔥 ```2024/11/07``` We have released our paper on Arxiv: 📄 [OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models](https://arxiv.org/abs/2411.04905).
@@ -59,11 +60,19 @@ We are working hard to release all those resources! 💪
 
 ## Datasets
 
+### Pre-training
+|         Dataset       | Size |                                Download                                 |
+|:---------------------:|:---------------:|:-----------------------------------------------------------------------:|
+| fineweb-code-corpus  |      148 GB       | 🤗 [HuggingFace](https://huggingface.co/datasets/OpenCoder-LLM/fineweb-code-corpus)  |
+| fineweb-math-corpus  |       10 GB    | 🤗 [HuggingFace](https://huggingface.co/datasets/OpenCoder-LLM/fineweb-math-corpus)  |
+
+
+### Post-training
 
 |         Dataset       | Num |                                Download                                 |
 |:---------------------:|:---------------:|:-----------------------------------------------------------------------:|
-| OpenCoder-SFT-Stage1  |      4.21 M       | 🤗 [HuggingFace](https://huggingface.co/datasets/OpenCoder-LLM/opencoder-sft-stage1)  |
-| OpenCoder-SFT-Stage2  |      375 K      | 🤗 [HuggingFace](https://huggingface.co/datasets/OpenCoder-LLM/opencoder-sft-stage2)  |
+| opencoder-sft-stage1  |      4.21 M       | 🤗 [HuggingFace](https://huggingface.co/datasets/OpenCoder-LLM/opencoder-sft-stage1)  |
+| opencoder-sft-stage2  |      375 K      | 🤗 [HuggingFace](https://huggingface.co/datasets/OpenCoder-LLM/opencoder-sft-stage2)  |
 
 
 **This is not the end; we are organizing the remaining data and uploading it progressively.**
